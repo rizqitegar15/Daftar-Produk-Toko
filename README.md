@@ -36,7 +36,17 @@ Aplikasi desktop sederhana untuk pencatatan dan pengelolaan daftar produk toko y
 
 - Satuan: Gunakan nominal angka rupiah (Contoh: 15000), nilai harga harus lebih dari nol.
 
+  <img width="1118" height="885" alt="Screenshot 2026-11-08 174843" src="https://github.com/user-attachments/assets/156f8660-ea5a-4a3d-be97-a9d6cc45e639" />
+
+
 5. Tekan Tombol Simpan dan Lihat Detail
 
-6. Lihat Hasil dan Detail Produk
 - Halaman detail akan menampilkan rincian Kode Produk, Nama Produk, Kategori, dan Harga dari produk yang telah ditambahkan.
+
+   <img width="1123" height="890" alt="Screenshot 2026-11-08 174916" src="https://github.com/user-attachments/assets/26d206b5-c069-4123-9b56-2fdc37b94eb3" />
+
+
+7. Lihat daftar produk
+
+   <img width="1123" height="890" alt="Screenshot 2026-11-08 174916" src="https://github.com/user-attachments/assets/cf2738f8-4b0a-4a0b-b7bf-4ec5ba54445b" />
+
