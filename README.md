@@ -48,5 +48,4 @@ Aplikasi desktop sederhana untuk pencatatan dan pengelolaan daftar produk toko y
 
 7. Lihat daftar produk
 
-   <img width="1123" height="890" alt="Screenshot 2026-11-08 174916" src="https://github.com/user-attachments/assets/cf2738f8-4b0a-4a0b-b7bf-4ec5ba54445b" />
-
+   <img width="1117" height="886" alt="Screenshot 2026-11-08 174902" src="https://github.com/user-attachments/assets/0a11cc81-6f9c-47cb-89fe-f42289b7c58a" />
