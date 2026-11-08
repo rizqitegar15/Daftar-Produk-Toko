@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kelas.controller.DaftarController"
+            stylesheets="@styles/app.css">
+    <top>
+        <VBox spacing="12" styleClass="header">
+            <Label text="Daftar Pembelian" styleClass="title"/>
+            <TextField fx:id="cariField" promptText="Cari kode atau nama"
+                       onAction="#cari"/>
+            <ComboBox fx:id="filterJenisBox"/>
+            <FlowPane hgap="10" vgap="8">
+                <Button text="Cari" onAction="#cari"/>
+                <Button text="Reset" onAction="#resetPencarian"/>
+                <Button text="Tambah" onAction="#tambah"
+                        styleClass="button-primary"/>
+                <Button text="Lihat Detail" onAction="#detail"/>
+                <Button text="Hapus" onAction="#hapus"/>
+                <CheckBox fx:id="totalCheck" text="Total" selected="true"
+                          onAction="#ubahTampilanTotal"/>
+                <CheckBox fx:id="jumlahCheck" text="Jumlah" selected="true"
+                          onAction="#ubahTampilanJumlah"/>
+            </FlowPane>
+        </VBox>
+    </top>
+    <center>
+        <TableView fx:id="tabel">
+            <columns>
+                <TableColumn fx:id="kodeCol" text="Kode" prefWidth="100"/>
+                <TableColumn fx:id="namaCol" text="Pembeli" prefWidth="230"/>
+                <TableColumn fx:id="jenisCol" text="Jenis" prefWidth="150"/>
+                <TableColumn fx:id="jumlahCol" text="Jumlah" prefWidth="100"/>
+                <TableColumn fx:id="totalCol" text="Total (Rp)" prefWidth="150"/>
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <Label fx:id="pesanLabel" wrapText="true" styleClass="error"/>
+    </bottom>
+</BorderPane>

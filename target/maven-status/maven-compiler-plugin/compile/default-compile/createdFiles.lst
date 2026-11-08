@@ -1,0 +1,10 @@
+kelas\model\TiketReguler.class
+kelas\model\Tiket.class
+kelas\controller\DaftarController.class
+kelas\controller\DetailController.class
+kelas\controller\FormController.class
+kelas\model\Pembelian.class
+kelas\data\DataPembelian.class
+kelas\model\TiketMahasiswa.class
+kelas\MainApp.class
+kelas\Navigator.class
